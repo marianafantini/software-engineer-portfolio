@@ -1,14 +1,12 @@
 <script setup>
 import { RouterView } from 'vue-router';
 import PresentationComponent from './components/PresentationComponent.vue';
-import {
-  LeftOutlined
-} from '@ant-design/icons-vue';
+import { LeftOutlined } from '@ant-design/icons-vue';
 
 const isNotInHome = (currentPath) => {
-  console.log(currentPath)
-  return currentPath !== "home";
-}
+  console.log(currentPath);
+  return currentPath !== 'home';
+};
 </script>
 
 <template>
@@ -19,7 +17,9 @@ const isNotInHome = (currentPath) => {
     </div>
 
     <div class="router-wrapper">
-      <RouterLink class="home-link" to="/" v-if="isNotInHome($route?.name)"> <LeftOutlined /> Home </RouterLink>
+      <RouterLink class="home-link" to="/" v-if="isNotInHome($route?.name)">
+        <LeftOutlined /> Home
+      </RouterLink>
 
       <RouterView />
     </div>
@@ -50,4 +50,16 @@ const isNotInHome = (currentPath) => {
   color: var(--medium-brown);
   padding: 1rem;
 }
-</style>./components/PresentationComponent.vue
+@media (max-width: 1024px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .presentation-wrapper,
+  .router-wrapper {
+    height: 100%;
+    width: 100vw;
+  }
+}
+</style>

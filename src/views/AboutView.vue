@@ -42,4 +42,23 @@ import { RouterLink } from 'vue-router';
     cursor: pointer;
   }
 }
+@media (max-width: 1024px) {
+  .about {
+    h2 {
+      font-size: 2rem;
+    }
+    > .about-text {
+      max-width: 90%;
+    }
+  }
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    button {
+      width: 100%;
+    }
+  }
+}
 </style>

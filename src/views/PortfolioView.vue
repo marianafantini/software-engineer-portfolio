@@ -27,4 +27,9 @@
     color: var(--medium-brown);
   }
 }
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: auto;
+  }
+}
 </style>
