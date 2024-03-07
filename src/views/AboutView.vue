@@ -27,7 +27,7 @@ import { RouterLink } from 'vue-router';
   justify-content: space-evenly;
   height: 100vh;
   > .about-text {
-    max-width: 50%;
+    max-width: 70%;
     text-align: center;
   }
   h2 {
