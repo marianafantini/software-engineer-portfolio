@@ -6,15 +6,7 @@
     <div class="grid">
       <a target="_blank" href="https://marianafantini.github.io/dog-ngo-canva-website/">
         <img src="/assets/portfolio-ngo.png" height="200" />
-        <p>Project of website to DogNGO</p>
-      </a>
-      <a target="_blank" href="https://marianafantini.github.io/dog-ngo-canva-website/">
-        <img src="/assets/portfolio-ngo.png" height="200" />
-        <p>Project of website to DogNGO</p>
-      </a>
-      <a target="_blank" href="https://marianafantini.github.io/dog-ngo-canva-website/">
-        <img src="/assets/portfolio-ngo.png" height="200" />
-        <p>Project of website to DogNGO</p>
+        <p>Project of website to Dog's NGO</p>
       </a>
     </div>
   </div>
