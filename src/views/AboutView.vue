@@ -55,7 +55,7 @@ import { RouterLink } from 'vue-router';
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 100%;
+    height: 30vh;
     button {
       width: 100%;
     }
